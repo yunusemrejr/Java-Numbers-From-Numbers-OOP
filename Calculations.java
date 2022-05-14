@@ -12,78 +12,78 @@ public class Calculations {
     private String squarerootText;
 
 
-    public void setNumber(float num){
+    public void setNumber(float num) {
 
-     number = num;
-
-    }
-
-    public void setText(String txt){
-
-    text = txt;
+        number = num;
 
     }
 
-    public float getNumber(){
+    public void setText(String txt) {
+
+        text = txt;
+
+    }
+
+    public float getNumber() {
 
         return number;
 
     }
 
-    public String getText(){
+    public String getText() {
 
         return text;
 
     }
 
-    public void setTimesPi(float timesPi2){
+    public void setTimesPi(float timesPi2) {
 
-        timesPi=timesPi2;
-
-
-    }
-
-    public void setTimesPiText(String timesPiText2){
-
-        timesPiText=timesPiText2;
+        timesPi = timesPi2;
 
 
     }
 
-    public float getTimesPi(){
+    public void setTimesPiText(String timesPiText2) {
 
-      return timesPi;
-
-    }
-
-    public String getTimePiText(){
-
-      return timesPiText;
-
-    }
-
-
-    public void setSquareroot(float sqrt){
-
-        squareroot=sqrt;
+        timesPiText = timesPiText2;
 
 
     }
 
-    public void setSquarerootText(String sqrtText){
+    public float getTimesPi() {
 
-        squarerootText=sqrtText;
+        return timesPi;
+
+    }
+
+    public String getTimePiText() {
+
+        return timesPiText;
+
+    }
+
+
+    public void setSquareroot(float sqrt) {
+
+        squareroot = sqrt;
 
 
     }
 
-    public float getSquareroot(){
+    public void setSquarerootText(String sqrtText) {
+
+        squarerootText = sqrtText;
+
+
+    }
+
+    public float getSquareroot() {
 
         return squareroot;
 
     }
 
-    public String getSquarerootText(){
+    public String getSquarerootText() {
 
         return squarerootText;
 
